@@ -6,7 +6,7 @@
 ## 목차
 [1. 개방데이터 크롤링](https://github.com/KaJaeHyeob/NIA/blob/master/README.md#1-%EA%B0%9C%EB%B0%A9%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%81%AC%EB%A1%A4%EB%A7%81-feat%EA%B5%AD%EB%AF%BC%EC%B2%AD%EC%9B%90--%EA%B5%AD%EB%AF%BC%EC%A0%9C%EC%95%88)
 
-[2. OPEN API 활용](https://github.com/KaJaeHyeob/NIA/blob/master/README.md#2-open-api-%ED%99%9C%EC%9A%A9-feat%EC%A0%84%EA%B8%B0%EC%9E%90%EB%8F%99%EC%B0%A8-%EC%B6%A9%EC%A0%84%EC%86%8C-%ED%98%84%ED%99%A9)
+[2. OPEN API 활용](https://github.com/KaJaeHyeob/NIA#2-open-api-%ED%99%9C%EC%9A%A9-feat%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%8F%AC%ED%84%B8)
 
 -----
 
