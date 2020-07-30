@@ -4,7 +4,7 @@
 -----
 
 ## 목차
-[1. 개방데이터 크롤링 & 워드클라우드 제작](https://github.com/KaJaeHyeob/NIA/blob/master/README.md#1-%EA%B0%9C%EB%B0%A9%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%81%AC%EB%A1%A4%EB%A7%81-feat%EA%B5%AD%EB%AF%BC%EC%B2%AD%EC%9B%90--%EA%B5%AD%EB%AF%BC%EC%A0%9C%EC%95%88)
+[1. 개방데이터 크롤링 & 워드클라우드 제작](https://github.com/KaJaeHyeob/NIA#1-%EA%B0%9C%EB%B0%A9%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%81%AC%EB%A1%A4%EB%A7%81--%EC%9B%8C%EB%93%9C%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%A0%9C%EC%9E%91-feat%EA%B5%AD%EB%AF%BC%EC%B2%AD%EC%9B%90--%EA%B5%AD%EB%AF%BC%EC%A0%9C%EC%95%88)
 
 [2. OPEN API 활용](https://github.com/KaJaeHyeob/NIA#2-open-api-%ED%99%9C%EC%9A%A9-feat%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%8F%AC%ED%84%B8)
 
