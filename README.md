@@ -1,24 +1,38 @@
 # NIA
-한국정보화진흥원 업무 | 개방데이터 크롤링 & 워드클라우드 제작 | OPEN API 활용
+한국정보화진흥원 | 개방데이터 크롤링 & 워드클라우드 제작 | OPEN API 활용
 
-## 목차
-[1. 개방데이터 크롤링 & 워드클라우드 제작 (feat.국민청원 & 국민제안)](https://github.com/KaJaeHyeob/NIA#1-%EA%B0%9C%EB%B0%A9%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%81%AC%EB%A1%A4%EB%A7%81--%EC%9B%8C%EB%93%9C%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%A0%9C%EC%9E%91-feat%EA%B5%AD%EB%AF%BC%EC%B2%AD%EC%9B%90--%EA%B5%AD%EB%AF%BC%EC%A0%9C%EC%95%88)
+<details>
+<summary>목차 및 링크</summary>
+<div markdown="1">
 
-[2. OPEN API 활용 (feat.공공데이터 포털)](https://github.com/KaJaeHyeob/NIA#2-open-api-%ED%99%9C%EC%9A%A9-feat%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%8F%AC%ED%84%B8)
+> [1. 개방데이터 크롤링 & 워드클라우드 제작 (feat.국민청원 & 국민제안)](https://github.com/KaJaeHyeob/NIA#1-%EA%B0%9C%EB%B0%A9%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%81%AC%EB%A1%A4%EB%A7%81--%EC%9B%8C%EB%93%9C%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%A0%9C%EC%9E%91-feat%EA%B5%AD%EB%AF%BC%EC%B2%AD%EC%9B%90--%EA%B5%AD%EB%AF%BC%EC%A0%9C%EC%95%88)    
+> > [1) 개요]()    
+> > [2) 용어 정리]()    
+> > [3) 데이터 목록]()    
+> > [4) 과정]()    
+> 
+> [2. OPEN API 활용 (feat.공공데이터 포털)](https://github.com/KaJaeHyeob/NIA#2-open-api-%ED%99%9C%EC%9A%A9-feat%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%8F%AC%ED%84%B8)    
+> > [1) BC](https://github.com/KaJaeHyeob/SAP_BC#1-bc)    
+> > [2) BC 업무](https://github.com/KaJaeHyeob/SAP_BC#2-bc-%EC%97%85%EB%AC%B4)    
+> > [3) BC 주요 T-code](https://github.com/KaJaeHyeob/SAP_BC#3-bc-%EC%A3%BC%EC%9A%94-t-code)    
+> > [4) BC 주요 ABAP Program 및 Function Module](https://github.com/KaJaeHyeob/SAP_BC#4-bc-%EC%A3%BC%EC%9A%94-abap-program-%EB%B0%8F-function-module)    
+> > [5) BC 주요 Table 및 View](https://github.com/KaJaeHyeob/SAP_BC#5-bc-%EC%A3%BC%EC%9A%94-table-%EB%B0%8F-view)    
+
+</div>
+</details>
 
 -----
 
 ## 1. 개방데이터 크롤링 & 워드클라우드 제작 (feat.국민청원 & 국민제안)
 
-### 1) 목적
-- '청와대 국민청원 데이터'와 '국민신문고 국민제안 데이터'를 크롤링하여, 제목 토큰을 연계함으로써 청원 해결을 위한 정책 수립 도움
-- 토큰에 대한 워드클라우드 시각화를 진행하여, 현황 파악을 쉽게 하도록 함
+### 1) 개요
+  '청와대 국민청원 데이터'와 '국민신문고 국민제안 데이터'의 제목 토큰을 연계함으로써 청원 해결을 위한 정책 수립에 도움을 주고자 하였다. 추가적으로, 토큰에 대한 워드클라우드 시각화를 진행하여, 현황 파악을 쉽게 할 수 있도록 해보았다.    
 
 ### 2) 용어 정리
-- 스크래핑 : 데이터를 수집하는 모든 과정 (크롤링의 상위 개념)
-- 크롤링 : 웹 페이지의 데이터를 수집하고 저장하는 과정
-- 파싱 : 데이터를 가공하는 과정
-- 워드클라우드 : 데이터의 중요도에 따라 크기를 다르게 설정하여 시각화하는 기법
+- 스크래핑 : 데이터를 수집하는 모든 과정 (크롤링의 상위 개념)    
+- 크롤링 : 웹 페이지의 데이터를 수집하고 저장하는 과정    
+- 파싱 : 데이터를 가공하는 과정    
+- 워드클라우드 : 데이터의 중요도에 따라 크기를 다르게 설정하여 시각화하는 기법    
 
 ### 3) 데이터 목록
 - 국민청원 : 국민들이 청와대에게 답변을 요구하는 어떠한 사안
@@ -27,11 +41,13 @@
 ### 4) 과정
 
 #### 쥬피터 랩(Jupyter Lab) 설치 및 실행
-주의) 인터프리터 기능을 편하게 사용하기 위해 쥬피터 랩을 사용함 (사용하지 않아도 무관함)
+
 ```
 pip install jupyterlab
 jupyter lab
 ```
+
+ 인터프리터 기능을 편하게 사용하기 위해 쥬피터 랩을 사용하였으며 사용하지 않아도 무관하다.
 
 #### 데이터 크롤링 (BeautifulSoup, celenium 사용)
 주의) celenium 사용할 웹 브라우저의 드라이버 필요함 (구글에서 제공하는 크롬드라이버 사용함)
